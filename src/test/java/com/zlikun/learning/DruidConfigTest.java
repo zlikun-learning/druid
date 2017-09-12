@@ -86,7 +86,7 @@ public class DruidConfigTest {
     }
 
     @Test
-    public void test() throws SQLException {
+    public void test() {
         jdbcTemplate.query("SELECT * FROM TBL_USER" ,resultSet -> {
             // 1	zlikun	2017-09-12 12:04:37.243
             // 2	kevin	2017-09-12 12:04:37.247
